@@ -54,6 +54,7 @@ async function getAllQuotes() {
     query {
       allQuotes {
         data {
+          _id
           quote
           author
         }
